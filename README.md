@@ -10,5 +10,6 @@ Fixed episode structure: **play the original → explain it line by line → lis
 - `SKILL.md` — the workflow (trigger this skill with "生成播客", "做一期讲解", "播客英文版", …)
 - `references/format.md` — the full v2 format spec (segment order, gaps, fixed phrases, file layout)
 - `bin/assemble.py`, `bin/assemble_en.py` — episode assemblers (normalize, concatenate, encode MP3, write timestamped transcript)
+- `examples/` — complete Episode 1 builds as reference: `e01-chinese/` (finished 7:06 episode + scripts + transcript) and `e01-english/` (full-English preview + scripts)
 
 Built from a real production run: a 3-episode Chinese series plus full-English versions, made with the `tts` CLI.
